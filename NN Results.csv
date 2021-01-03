@@ -1,0 +1,17 @@
+Name,Accuracy,Precision,Recall,Loss,Hidden Layers,Optimizer,Batch Size,Epochs,Activation,Learning Rate,Amsgrad,Momentum
+Batch Normalization,0.6252,0.6252,0.6252,0.6206,2,Adam,100,30,Softmax,0.0007,TRUE,-
+"More Batch Layers, No Amsgrad",0.6362,0.6362,0.6362,0.6106,3,Adam,120,30,Softmax,0.007,FALSE,-
+"Even more layers, SGD, Reduced Batch Size",0.6199,0.6199,0.6199,0.6246,4,SGD,50,30,Softmax,0.005,-,0.5
+Neural Network with Nadam,0.6219,0.6219,0.6219,0.623,2,NAdam,100,30,Softmax,0.0009,-,-
+"Neural Net with Adam, High Learning Rate",0.6006,0.6006,0.6006,0.634,2,Adam,100,30,Softmax,0.01,FALSE,-
+"Neural Net with Adam, Low Learning Rate, More Layers",0.6246,0.6246,0.6246,0.6211,3,Adam,100,30,Softmax,0.004,FALSE,-
+Best Neural Net with 5 Categories,0.8628,0.6761,0.6761,0.6761,3,Adam,200,15,Softmax,0.004,FALSE,-
+CCNN2 ,0.7125,0.7125,0.7125,0.5583,4,NAdam,300,30,Softmax,0.001,FALSE,-
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
